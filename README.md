@@ -9,7 +9,7 @@
 - Mode Gelap
 ![Gelap](./assets/images/gelap.png)
 
-### C. Diagram Widget Tree
+### c. Diagram Widget Tree
 
 Berikut adalah diagram hierarki widget (*Widget Tree*) pada halaman Menu UMKM dengan penanda komponen **Stateless** dan **Stateful**:
 
@@ -44,8 +44,8 @@ flowchart TD
         UMKM --> FAB["FloatingActionButton: Pesan [Stateless]"]
     end
 
-    classDef stateful fill:#ffcccc,stroke:#cc0000,stroke-width:2px;
-    classDef stateless fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
+    classDef stateful fill:#ffcdd2,stroke:#c62828,stroke-width:2px,color:#000000;
+    classDef stateless fill:#bbdefb,stroke:#1565c0,stroke-width:2px,color:#000000;
     class App,Fav1,Fav2,Fav3,Fav4 stateful;
     class UMKM,SBar,TeksDesc,CardKontak,Menu1,Menu2,Menu3,Menu4,FAB stateless;
 ```
@@ -53,8 +53,6 @@ flowchart TD
 > **Keterangan Diagram:**
 > * Kotak berwarna **Merah Muda / [Stateful]**: Memiliki data yang dapat berubah saat ditekan pengguna.
 > * Kotak berwarna **Biru Muda / [Stateless]**: Komponen tampilan statis yang tidak berubah sendiri.
-
----
 
 ### D. Penjelasan Arsitektur Tiga Pohon & Alasan Pemilihan Widget (191 Kata)
 
